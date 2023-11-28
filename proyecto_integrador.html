@@ -1,0 +1,1360 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Inicio</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+  .pagina1{
+    background-color: aqua;
+    height: 500px;
+    width: 1680px;
+  }
+    body {
+            margin: 0;
+            padding: 0;
+         
+            background-color: white;
+        }
+        #div-inferior {
+           
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1; 
+        }
+        #video-fondo {
+           
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .pagina2 {
+          background-color: black;
+        }
+
+#sobre_nosotros {
+  height: 900px;
+  width: 1650px;
+  background-color: white;
+}
+
+
+        .pagina3 {
+          background-color: white;
+        }
+
+        
+      
+        #texto-modelos {
+           
+            font-size: 60px;
+            color: white;
+            text-align: center;
+           text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+           
+          
+           
+        }
+        
+        #texto-noticias{
+           
+           font-size: 60px;
+           color: black;
+           text-align: center;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #fff;
+          
+         
+          
+       }
+       
+        
+.nav-link {
+    
+    color: white;
+    transition: all 0.3s;
+}
+.nav-link:hover {
+   
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+        img{
+          background-color: black;
+          color: #000;
+        }
+        .espacio_negro {
+          font-weight:600;
+          background-color: #161616;
+          height: 100px;
+         width: 1680px;
+         
+         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        .espacio_transparente {
+          background-color: transparent;
+          height: 700px;
+         width: 1680px;
+         text-align: center;
+         align-items: center;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #boton {
+          
+          background-image: linear-gradient(150deg, yellow, rgb(71, 71, 71), lightgreen);
+          border-radius: 8px;
+          color: #fff;
+          display: flex;
+          font-size: 18px;
+          padding: 4px;
+          cursor: pointer;
+          transition: .6s;
+
+        }
+       
+        .pie-pagina{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+.box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box figure img{
+    width: 250px;
+
+
+}
+.box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.grupo-1 .box p{
+    color: white;
+    margin-bottom: 10px;
+}
+.red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.red-social a:hover{
+    color: yellowgreen;
+    font-size: 30px;
+    transition: all 1s;
+   
+}
+
+.grupo-2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+
+}
+}
+
+
+
+
+        .list-group-item {
+          font-size: 14px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-weight: lighter;
+         
+        }
+       
+        #button_ej:hover{
+        translate: 30px -5px;
+       
+        scale: 1.3;
+        
+        transition: scale 1s,border 0.3s,translate 1s;
+        border: solid yellowgreen 1.5px ;
+        }
+        #button_ej1{
+          height: 30px;
+          width: 100px;
+          font-size: 12px;
+        }
+        #button_ej1:hover{
+        translate: 30px -5px;
+       
+        scale: 1.2;
+        
+        transition: scale 1s,border 0.3s,translate 1s;
+        border: solid yellowgreen 1.5px ;
+        }
+        #moveButton:hover{
+          translate: 30px -5px;
+       
+       scale: 1.3;
+       
+       transition: scale 1s,border 0.3s,translate 1s;
+       border: solid yellowgreen 1.5px ;
+    }
+
+.carousel-container {
+    position: relative;
+    max-height: 300px; 
+    overflow: hidden;
+}
+
+.carousel-inner {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent; 
+   
+}
+
+#slide1 {
+    background-color: red; 
+}
+
+#slide2 {
+    background-color: blue; 
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  #moveButton:hover + .card {
+  opacity: 1;
+}
+
+.card{
+  margin-left: 100px;
+  background-color: lightgray;
+  opacity: 1;
+}
+
+.card:hover{
+  translate: 100px 20;
+  opacity: 1;
+}
+.cartas {
+  opacity:0;
+transition: all 2s;
+
+}
+.cartas:hover {
+  opacity: 1;
+  float: left;
+ 
+}
+.login {
+  background-color: transparent;
+  border: 2px solid darkgrey;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  height: 550px;
+  width: 350px;
+}
+.modal-content {
+  background-color: transparent;
+  
+}
+.login-container {
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+        }
+        .login-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .login-image {
+            max-width: 100px;
+        }
+        .login-input {
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #000;
+            margin: 10px 0;
+            padding: 5px;
+            font-size: 16px;
+        }
+        .login-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            margin-top: 60px;
+          border-radius: 20px;
+        }
+        .login-button:hover {
+          scale: 1.1;
+          transition: all 0.6s;
+        }
+        .login-links {
+            margin: 10px 0;
+        }
+        .login-input{
+          border-radius: 20px;
+        }
+        .container_img{
+margin-bottom: 20px;
+        }
+        input{
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         font-size: 30px;
+         font-weight: 600;
+        }
+        #btn_close{
+          background-color: transparent;
+          margin-left: 270px;
+          border: 0px;
+        }
+        #btn_minimize{
+          background-color: transparent;
+          margin-left: 250px;
+          border: 0px;
+        }
+        #img_logo:hover{
+          scale: 1.05;
+          transition: all 0.3s;
+        }
+        .news-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        .news-article {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        .news-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .news-meta {
+            color: #888;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .news-article {
+                padding: 10px;
+            }
+
+            .news-title {
+                font-size: 20px;
+            }
+        }
+
+
+        #texto-encima {
+            position: absolute;
+            top: 25%;
+            left: 30%;
+            transform: translate(-57%, 180%);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+            color: white;
+            text-align: center;
+      
+            font-size: 5.4rem; 
+            line-height: 1.5;
+          
+        }
+        #txt_logo {
+            position: absolute;
+            top: 25%;
+            left: 30%;
+            transform: translate(50%, -80%);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+            color: white;
+            text-align: center;
+          
+            font-size: 3rem; 
+            line-height: 1.5;
+          
+        }
+        #img_logo {
+            position: absolute;
+            top: 25%;
+            left: 30%;
+            transform: translate(-57%, 180%);
+ 
+          
+        }
+
+
+        #texto-grande {
+            position: absolute;
+            top: 40%;
+            left: 30%;
+            transform: translate(-85%, 150%);
+            font-size: 5.4rem;
+            color: white;
+            text-align: center;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+           
+        }
+        #texto-grande2 {
+            position: absolute;
+            top: 55%;
+            left: 25%;
+            transform: translate(-20%, 700%);
+            margin-left: 30px;
+            font-size: 18px;
+            color: white  ;
+            text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+       
+        }
+        
+        #texto-modelos {
+           
+         
+        
+            color: white;
+            text-align: left;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 2.5rem; 
+            line-height: 1.5;
+            background-color: #000;
+            padding: 20px
+
+
+;
+          
+       }
+       #btn1 {
+            position: absolute;
+            top: 66%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            font-size: 140px;
+            color: white;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        #btn2 {
+            position: absolute;
+            top: 66%;
+            left: 25%;
+            transform: translate(-80%, -100%);
+            font-size: 200px;
+            color: white;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+      #card1{
+        position: absolute;
+        top: 17%;
+        left: 40%;
+      }
+      #card2{
+        position: absolute;
+        top: 17%;
+        left: 55%;
+      }
+      #card3{
+        position: absolute;
+        top: 47%;
+        left: 40%;
+      }
+      #card4{
+        position: absolute;
+        top: 47%;
+        left: 55%;
+      }
+      #card5{
+        position: absolute;
+        top: 47%;
+        left: 70%;
+      }
+      #card6{
+        position: absolute;
+        top: 17%;
+        left: 70%;
+      }
+      #texto-carousel {
+         
+           
+         transform: translate(-30%, -200%);
+         font-size: 110px;
+         color: white;
+         text-align: center;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+     }
+     #texto_animado {
+         
+         transform: translate(-30%, -600%);
+         font-size: 50px;
+         color: white;
+         text-align: center;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+     }
+     @media (max-width: 1024px) {
+    #texto-carousel {
+        transform: translate(-10%, -50%);
+        font-size: 40px; 
+    }
+    #texto-encima,
+    #texto-grande,
+    #texto-grande2,
+    #texto-modelos,
+    #texto-noticias {
+        font-size: 1.2rem; 
+    }
+    #texto-encima {
+        top: 20%;
+        left: 35%;
+    }
+    #texto-grande {
+        top: 25%;
+        left: 20%; 
+    }
+    #texto-grande2 {
+        top: 30%;
+        left: 20%;
+    }
+    #btn1, #button_ej {
+        font-size: 8px;
+        top: 35%;
+        left: 20%;
+        height: 12px;
+        width: 24px;
+    }
+    #button_ej:hover {
+        transform: translate(10px, -2.5px);
+        scale: 1.15;
+        transition: scale 1s, border 0.3s, transform 1s; 
+        border: solid yellowgreen 1.25px;
+    }
+    .card {
+        margin-left: 50px; 
+        background-color: lightgray;
+        opacity: 1;
+        scale: 0.5; 
+        margin-bottom: 50px; 
+    }
+    .cartas {
+        opacity: 0;
+        transition: all 2s;
+    }
+    .cartas:hover {
+        opacity: 1;
+        float: left;
+    }
+    #card1 {
+        position: absolute;
+        top: -5%; 
+        left: 10%;
+    }
+    #card2 {
+        position: absolute;
+        top: -5%; 
+        left: 25%;
+    }
+    #card3 {
+        position: absolute;
+        top: 15%; 
+        left: 10%;
+    }
+    #card4 {
+        position: absolute;
+        top: 15%; 
+        left: 25%;
+    }
+    #card5 {
+        position: absolute;
+        top: 15%;
+        left: 40%;
+    }
+    #card6 {
+        position: absolute;
+        top: -5%; 
+        left: 40%;
+    }
+    #btn2 {
+        font-size: 8px;
+        top: 35%;
+        left: 20%;
+        height: 12px; 
+        
+    }
+}
+
+       @media (max-width: 768px) {
+        #texto-carousel{
+          transform: translate(-10%, -75%);
+          font-size: 30px;
+        }
+            #texto-encima {
+                font-size: 1.5rem;
+                top:23%;
+                left: 40%;
+            }
+            #texto-grande {
+                font-size: 1.5rem;
+                top: 28%;
+                left: 25%;
+            }
+            #texto-grande2 {
+                font-size: 1.5rem; 
+                top: 32%;
+                left: 25%;
+            }
+            #texto-modelos {
+                font-size: 1.5rem; 
+            }
+            #texto-noticias {
+                font-size: 1.5rem; 
+            }
+            #btn1 {
+                font-size: 5px;
+                top: 37%;
+                left: 25%;
+                height: 10px;
+                width: 20px; 
+            }
+            #button_ej{
+              height: 20px;
+                width: 60px; 
+                font-size: 5px;
+            }
+            #button_ej:hover{
+        translate: 10px -2.5px;
+       
+        scale: 1.15;
+        
+        transition: scale 1s,border 0.3s,translate 1s;
+        border: solid yellowgreen 1.25px ;
+        }
+        
+        .card{
+         margin-left: 100px;
+         background-color: lightgray;
+        opacity: 1;
+        scale: 0.3;
+       margin-bottom: 100px;
+        }
+
+       .card:hover{
+       
+        opacity: 1;
+        }
+     
+
+           #card1{
+        position: absolute;
+        top: -10%;
+        left: 10%;
+      }
+      #card2{
+        position: absolute;
+        top: -10%;
+        left: 25%;
+      }
+      #card3{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+      }
+      #card4{
+        position: absolute;
+        top: 20%;
+        left: 25%;
+      }
+      #card5{
+        position: absolute;
+        top: 20%;
+        left: 40%;
+      }
+      #card6{
+        position: absolute;
+        top: -10%;
+        left: 40%;
+      }
+      #btn2 {
+        font-size: 5px;
+                top: 37%;
+                left: 25%;
+                height: 10px;
+                width: 20px; 
+        }
+    }
+    #txt_sobrenosotros {
+      margin-top: 100px;
+      margin-left: 400px;
+    }
+    .text_about{
+      margin-top: 25px;
+     
+      margin-left: 300px;
+      margin-right: 900px;
+     font-weight: lighter;
+     font-size: 20px;
+    
+    
+    }
+
+    #txt_historia {
+     
+      margin-left: 1000px;
+      margin-top: -500px;
+      translate: 0px -440px;
+    }
+    .text_historia{
+    translate: 0px -430px;
+     font-weight: lighter;
+     font-size: 20px;
+     margin-left: 900px;
+     margin-right: 300px;
+     margin-top: 25px;
+    
+    }
+     #factory{
+      background-color: white;
+      height: 400px;
+      width: 500px;
+      translate: 200px -500px;
+    }
+  
+        #button_jquery:hover {
+        translate: 5px -1.25px;
+       
+        scale: 1.10;
+        
+        transition: scale 1s,border 0.3s,translate 1s;
+        border: solid yellowgreen 1.25px ;
+        }
+        #button_jquery2:hover {
+        translate: 5px -1.25px;
+       
+        scale: 1.10;
+        
+        transition: scale 1s,border 0.3s,translate 1s;
+        border: solid yellowgreen 1.25px ;
+        }
+
+        .btndefault:hover{
+    background-color: gray;
+    transition: all 0.5s;
+}
+.btndefault{
+    background-color: transparent;
+   margin-top: 250px;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+    height: 50px;
+    width: 400px;
+    border: 2px solid white;
+    margin-left: 0px;
+  font-weight: lighter;
+    font-size: 17px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery-item {
+  
+  text-align: center;
+}
+
+#im {
+  max-width: 100%;
+  height: 620px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 480px;
+  transition: all 1s;
+}
+#im:hover {
+scale: 1.1;
+  filter: saturate(2);
+}
+
+.image-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #909090;
+}
+.gallery-item:hover img {
+  transform: scale(1.0);
+}
+.scrolled {
+      background-color: transparent;
+
+    }
+    header {
+      background-color: #262626;
+      color: #fff;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      transition: background-color 0.3s;
+      height: 90px;
+      transition: background-color 0.7s;
+    }
+   #navegacion {
+    background-color: transparent;
+    height: 80px;
+   }
+</style>
+
+<body>
+ 
+  <header id="cabezera" style="position: fixed; width: 100%; z-index: 1;">
+    <nav id="navegacion" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img style="background-color: transparent;" src="logopng.png" alt="nada" height="70" width="150"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="proyecto_integrador_catalogo.html">Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <div class="amarillo"><a class="nav-link text-white" href="#">Descuentos</a></div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contacto
+                </a>
+                <ul class="dropdown-menu text-white">
+                  <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider text-white"></li>
+                  <li><a class="dropdown-item text-white" href="pagina_administrativa.html">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="pagina_administrativa.html">Página administrativa</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+
+                <li><a class="dropdown-item text-white">User <div class="text-black" style="color: transparent;">.</div></a></li>
+             
+<button type="button" class="btn bg-transparent" style="translate: -70px -40px; " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  <img style="background-color: transparent;" id="img_logo" src="userimg.png" alt="" height="25" width="25">
+</button>
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="login">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        
+
+        <div class="login-container">
+          <div class="buttons">
+           
+          <button type="button" class="btn btn-secondary" id="btn_close" data-bs-dismiss="modal">X</button>
+
+        </div>
+          <div class="login-title">Iniciar Sesión</div>
+       
+          <div class="container_img">
+          <img class="login-image" src="logo.jpg" alt="Logo">
+        </div>
+          <form>
+              <label for="username">Usuario:</label>
+              
+              <input type="text" name="username" class="login-input" required>
+  
+              <label for="password">Contraseña:</label>
+              <input type="password" name="password" class="login-input" required>
+  
+              <button type="submit" class="login-button" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Iniciar Sesión</button>
+          </form>
+          <div class="login-links">
+            <label for="username">Olvidaste tu contraseña?</label>
+              <a href="olvidar_contraseña.html">Recuperar</a><br> 
+              <label for="username">No tienes una cuenta?</label>
+              <a href="registrarse.html">Regístrate</a>
+          </div>
+      </div>
+
+
+      </div>
+     
+    </div>
+  </div>
+</div>
+</div>             
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <main>
+    <video id="video-fondo" autoplay muted loop height="689.5" >
+        <source src="M8.mkv" type="video/mp4">
+      
+    </video>
+
+<div  id="txt_logo">Autodrive™</div>
+
+
+    <div id="texto-encima">
+      courage is a
+    </div>
+       <div id="texto-grande"> decision
+        
+    </div>
+    
+       
+        
+        
+      
+   
+    <div id="btn1">
+        <button type="button"  class="btndefault">Descubre mas acerca del nuevo M8 Competition</button>
+    </div>
+    <div id="texto-grande2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ex, exercitationem cumque sequi itaque iusto cum odit fugit dignissimos, cupiditate deserunt ea reprehenderit amet adipisci voluptates quibusdam temporibus? Aspernatur, atque.</div>
+    
+
+   
+  </main>
+  
+<div id="SeccionEncontrar" style="height:600px ; background-color: white;">
+<div id="txtcompraonline" style="color: rgb(117, 117, 117); font-size: 20PX; text-align: center; margin-top: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 550; ">COMPRA EN LINEA</div>
+<div id="txtcompraonline" style="color: rgb(53, 53, 53); font-size: 40PX; text-align: center; margin-top: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 300; ">ENCUENTRE SU MODELO IDEAL</div>
+<div class="container">
+  <div class="row" style="margin-top: 50px;">
+    <div class="col" style="margin-left: 100px;" ><img src="imgauto1.png" height="120px" width="170px" alt=""></div>
+    <div class="col" style="margin-left: 100px;"><img src="imgauto2.png" height="120px" width="170px" alt=""></div>
+    <div class="col" style="margin-left: 100px;"><img src="imgauto3.png" height="120px" width="170px" alt=""></div>
+  </div>
+
+  <div class="row" style="margin-top: 50px;">
+    <div class="col" style="margin-left: 100px;">VEHICULOS NUEVOS</div>
+    <div class="col"style="margin-left: 100px;">VEHICULOS DE SEGUNDA MANO</div>
+    <div class="col" style="margin-left: 100px;">MODIFICAR VEHICULO</div>
+   
+  </div>
+  <div class="row" style="margin-top: 50px;">
+    <div class="col"><button class="btndefault" style="margin-top: 0px; margin-right: 10px; color: rgb(0, 0, 0); border-color: #161616; font-weight: 600;">Buscar nuevos vehículos</button></div>
+    <div class="col"> <button class="btndefault" style="margin-top: 0px; margin-right: 10px; color: rgb(0, 0, 0); border-color: #161616; font-weight: 600;">Buscar vehículos usados</button></div>
+    <div class="col"> <button class="btndefault" style="margin-top: 0px; margin-right: 10px; color: rgb(0, 0, 0); border-color: #161616; font-weight: 600;">Configurar & Precios</button></div>
+   
+  </div>
+ 
+</div>
+
+</div>
+
+<div id="ofertas" style="height: 600px">
+  <img src="https://www.inghamdriven.nz/mercedes-benz/wp-content/uploads/sites/17/2023/06/GLC-Front-Right-Facing-Hero-Image-2500x800-1.jpg" height="620px" width="1663px" alt="">
+  <div id="txt_oferta" style="color: white; margin-left: 200px; translate: 0px -500px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 40px; font-weight: 100;"  >EN DESCUENTO</div>
+ 
+  <div id="txt_inf1"  style="color: white; margin-left: 100px; margin-top: 200px; translate: 0px -500px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; font-weight: 100;"  >La nueva SUV ahora 100% eléctrica. Adquieralá desde $50.000</div>
+ 
+</div>
+<button class="btndefault" style="margin-top: 0px; margin-right: 10px; color: rgb(255, 255, 255); border-color: #f5f5f5; font-weight: 600; margin: 0px; height: 50px; translate: 100px -150px;">Descubre mas</button>
+<div id="txtdesde" style="height: 120px; width: 240px; border: white solid 2px; translate: 1100px -530px;"><div id="txttt" style="color: white; font-size: 40px; text-align: center; margin-top: 44px; font-weight: 700;">$800</div><div id="txtttt" style="color: white; translate: 50px -85px; font-size: 20px;">CUOTA MENSUAL</div></div>
+
+<div id="ferrariLF" style="height: 800px; background-color: white;">
+  <div id="moddestacado" style="color: #161616; font-size: 35px; margin-left: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 40px;">MODELO DESTACADO</div>
+  <div id="moddestacado" style="color: #161616; font-size: 25px; margin-left: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 20px;">950 Caballos</div>
+  <div id="moddestacado" style="color: #161616; font-size: 25px; margin-left: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 20px;">1-100 En 2.8seg</div>
+ 
+  <div id="moddestacado" style="color: #161616; font-size: 25px; margin-left: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Hasta 370KM/H</div>
+  
+  <button class="btndefault" style=" color: rgb(61, 61, 61); border-color: #000000; font-weight: 600; margin: 0px; height: 50px; translate: 100px -150px;">Descubre mas</button>
+  
+
+<img style="translate: 100px -250px;" src="https://i.pinimg.com/originals/62/45/4e/62454e759e42333850db5a3c0f071b78.jpg" height="750px" alt="">
+<button class="btndefault" style=" color: rgb(61, 61, 61); border-color: #ff0000; font-weight: 600; margin: 0px; height: 50px; translate: 100px -470px;">Ver Componentes</button>
+<div id="flecha1" style="height: 2px; width: 550px; background-color: red; translate: 500px -503px;"></div>
+<div id="cart1" style="height: 100px; width: 130px; background-color: #ff0000; translate: 1000px -1000px; border-radius: 10px; border: #000000 solid 1.5px;">
+<img src="https://cdn.ferrari.com/cms/network/media/img/resize/6093ffd78c09a35ca689fb81-ferrari-magazine-6mrkna0Qon.jpg?width=830&height=0" height="90px" width="120px" style="margin: 4px;" alt="">
+</div>
+
+<div id="cart2" style="height: 100px; width: 130px; background-color: #ff0000; translate: 1200px -1050px; border-radius: 10px; border: #000000 solid 1.5px;">
+  <img src="https://cdn.ferrari.com/cms/network/media/img/resize/6093ffd78c09a35ca689fb81-ferrari-magazine-6mrkna0Qon.jpg?width=830&height=0" height="90px" width="120px" style="margin: 4px;" alt="">
+  </div>
+
+  <div id="cart3" style="height: 100px; width: 130px; background-color: #ff0000; translate: 800px -1150px; border-radius: 10px; border: #000000 solid 1.5px;">
+    <img src="https://cdn.ferrari.com/cms/network/media/img/resize/6093ffd78c09a35ca689fb81-ferrari-magazine-6mrkna0Qon.jpg?width=830&height=0" height="90px" width="120px" style="margin: 4px;" alt="">
+    </div>
+</div>
+
+<div id="cart4" style="height: 100px; width: 130px; background-color: #ff0000; translate: 1400px -600px; border-radius: 10px; border: #000000 solid 1.5px;">
+  <img src="https://cdn.ferrari.com/cms/network/media/img/resize/6093ffd78c09a35ca689fb81-ferrari-magazine-6mrkna0Qon.jpg?width=830&height=0" height="90px" width="120px" style="margin: 4px;" alt="">
+  </div>
+
+  <div id="cart5" style="height: 100px; width: 130px; background-color: #ff0000; translate: 600px -700px; border-radius: 10px; border: #000000 solid 1.5px;">
+    <img src="https://cdn.ferrari.com/cms/network/media/img/resize/6093ffd78c09a35ca689fb81-ferrari-magazine-6mrkna0Qon.jpg?width=830&height=0" height="90px" width="120px" style="margin: 4px;" alt="">
+    </div>
+</div>
+
+<div id="linea" style="height: 2px; background-color: #000; translate: 0px -200px;"></div>
+
+<div style="width: 900px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 35px; translate: 300px -100px; font-weight: lighter; color: #424242;">MODELOS MAS COMPRADOS</div>
+<div id="nameauto" style="width: 700px; font-size: 25px; translate: 0px -0px; translate: 300px 0px;">PORSCHE - GT3 RS</div>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div style="background-color: rgb(255, 255, 255); height: 700px;" ></div>
+      <img src="carro.png" style="translate: 500px -600px; height: 600px; width: 800px;"  alt="...">
+      <button class="btndefault" style=" color: rgb(61, 61, 61); border-color: #000000; font-weight: 600; margin: 0px; height: 50px; translate: -500px -350px;">Descubre mas</button>
+      <button class="btndefault" style=" color: rgb(61, 61, 61); border-color: rgb(26, 29, 199); font-weight: 600; margin: 0px; height: 50px; translate: -400px -350px;">Descubre mas</button>
+  
+  <div id="borde" style="border: #424242 solid 1px; height: 550px; translate: 200px -1100px; width: 1100px;"></div>
+  <div id="borde2" style="border: #424242 solid 1px; height: 550px; translate: -200px -1650px; width: 300px;"></div>
+  <div id="borde3" style="border: #424242 solid 1px; height: 550px; translate: 1400px -2200px; width: 300px;"></div>
+   
+    </div>
+    <div class="carousel-item">
+      <div style="background-color: rgb(255, 255, 255); height: 700px;"></div>
+      <img src="https://rare-gallery.com/mocahbig/420331-Nissan-Nissan-GT-R-Nissan-GT-R-NISMO-car-vehicle.jpg" style="translate: 500px -600px; height: 600px; width: 850px;" alt="...">
+      <button class="btndefault" style=" color: rgb(61, 61, 61); border-color: #000000; font-weight: 600; margin: 0px; height: 50px; translate: -500px -350px;">Descubre mas</button>
+      <button class="btndefault" style=" color: rgb(61, 61, 61); border-color: rgb(26, 29, 199); font-weight: 600; margin: 0px; height: 50px; translate: -400px -350px;">Descubre mas</button>
+    
+      <div id="borde" style="border: #424242 solid 1px; height: 550px; translate: 200px -1100px; width: 1100px;"></div>
+      <div id="borde2" style="border: #424242 solid 1px; height: 550px; translate: -200px -1650px; width: 300px;"></div>
+      <div id="borde3" style="border: #424242 solid 1px; height: 550px; translate: 1400px -2200px; width: 300px;"></div>
+       
+    </div>
+    <div class="carousel-item">
+      <div style="background-color: rgb(255, 255, 255); height: 700px;"></div>
+      <img src="carro4.png"  style="translate: 500px -600px; height: 600px; width: 800px;" alt="...">
+      <button class="btndefault" style=" color: rgb(61, 61, 61); border-color: #000000; font-weight: 600; margin: 0px; height: 50px; translate: -500px -350px;">Descubre mas</button>
+      <button class="btndefault" style=" color: rgb(61, 61, 61); border-color: rgb(26, 29, 199); font-weight: 600; margin: 0px; height: 50px; translate: -400px -350px;">Descubre mas</button>
+    
+      <div id="borde" style="border: #424242 solid 1px; height: 550px; translate: 200px -1100px; width: 1100px;"></div>
+      <div id="borde2" style="border: #424242 solid 1px; height: 550px; translate: -200px -1650px; width: 300px;"></div>
+      <div id="borde3" style="border: #424242 solid 1px; height: 550px; translate: 1400px -2200px; width: 300px;"></div>
+       
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" style="translate: 300px -1420px; height: 50px; width: 50px;" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+   
+    <span class="carousel-control-prev-icon" style="background-color: #000; scale: 1.6; border-radius: 5px;" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" style="translate: -1200px -1420px; height: 50px; width: 50px;" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" style="background-color: #000; scale: 1.6; border-radius: 5px;" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+    
+<div id="proximasllegadas" style="translate: 0px -1800px;">
+<div style="font-size: 35px; translate: 700px -100px; width: 500px;" id="title1">COMUNITY</div>
+<div style="font-size: 15px; height: 2px; background-color: #000; translate: 0px -300px;"  id="title1"></div>
+
+  <div class="gallery">
+    <div style="height: 620px; border-radius: 8px;  overflow: hidden;" class="gallery-item">
+      <img id="im" style="opacity: 1;" src="https://i.pinimg.com/564x/3b/84/b6/3b84b6c580ced4b055b720fe7e30bad5.jpg"  alt="Imagen 1">
+      <div style="font-size: 30px; translate: -50px -600px; color: white;" class="image-text">WE GOT WHAT YOU WANT</div>
+      <div style="font-size: 20px; translate: 0px -240px; color: white;" class="image-text">Lorem ipsum dolor sit amet, consectetur adipisicing </div>
+      <div style="font-size: 20px; translate: 0px -250px; color: white;" class="image-text"> consectetur adipisicing </div>
+      <button class="btndefault" style=" color: rgb(255, 255, 255); border-color: #ffffff; font-weight: 600; margin: 0px; height: 50px; translate: 0px -230px;">Learn More</button>
+  
+    </div>
+    
+    <div style="height: 620px; border-radius: 8px;  overflow: hidden;" class="gallery-item">
+      <img id="im" style="opacity: 1;" src="https://i.pinimg.com/564x/48/1a/09/481a09ab88511179fd2eb6b587f1fbcb.jpg" alt="Imagen 3">
+      <div style="font-size: 30px; translate: -50px -600px; color: white;" class="image-text">THE ECO-FRIENDLY IMPACT</div>
+      <div style="font-size: 20px; translate: 0px -240px; color: white;" class="image-text">Lorem ipsum dolor sit amet, consectetur adipisicing </div>
+      <div style="font-size: 20px; translate: 0px -250px; color: white;" class="image-text"> consectetur adipisicing </div>
+      <button class="btndefault" style=" color: rgb(255, 255, 255); border-color: #ffffff; font-weight: 600; margin: 0px; height: 50px; translate: 0px -230px;">Learn More</button>
+  
+    </div>
+    <div style="height: 620px; border-radius: 8px;  overflow: hidden;" class="gallery-item">
+      <img id="im" style=" opacity: 1;" src="https://img.freepik.com/premium-photo/image-futuristic-car-against-backdrop-city-future-concept-car_158863-7054.jpg?w=2000" alt="Imagen 4">
+      <div style="font-size: 30px; translate: -50px -600px; color: white;" class="image-text">A VIEW IN THE FUTURE</div>
+      <div style="font-size: 20px; translate: 0px -240px; color: white;" class="image-text">Lorem ipsum dolor sit amet, consectetur adipisicing </div>
+      <div style="font-size: 20px; translate: 0px -250px; color: white;" class="image-text"> consectetur adipisicing </div>
+      <button class="btndefault" style=" color: rgb(255, 255, 255); border-color: #ffffff; font-weight: 600; margin: 0px; height: 50px; translate: 0px -230px;">Learn More</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+  
+
+    
+  
+  </div>
+  
+  
+  
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </script>
+  
+  
+</div>
+</div>
+</div>
+<div id="texto-noticias" style="translate: 0px -1800px;">NOTICIAS
+        
+</div>
+<div class="news-section" style="translate: 0px -1800px;">
+  <div class="news-article">
+      <div class="news-image">
+          <img src="https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2018/08/ssc-tuatara_2.jpg?tf=1920x" alt="Imagen de Noticia 1" height="200" width="400">
+      </div>
+      <div class="news-content">
+          <h2 class="news-title">Nuevo récord de velocidad para un coche de producción: ¡508,73 km/h! para el SSC Tuatara</h2>
+          <p class="news-meta">Publicado el 10 de octubre de 2023</p>
+          <p>La larga historia de los récords de velocidad en los coches de serie abre un nuevo capítulo, porque el SSC Tuatara acaba de batirlo y ha fijado una velocidad máxima de 508,73 km/h..</p>
+      </div>
+  </div>
+
+  <div class="news-article">
+      <div class="news-image">
+          <img src="https://hips.hearstapps.com/hmg-prod/images/lb744-orange-7-64234577d43ca.jpg?resize=980:*" alt="Imagen de Noticia 2" height="200" width="400">
+      </div>
+      <div class="news-content">
+          <h2 class="news-title">Lamborghini Revuelto: la bestia híbrida de los 1.000 CV</h2>
+          <p class="news-meta">Publicado el 9 de octubre de 2023</p>
+          <p>Lamborghini finalmente ha revelado todos los detalles del que será su nuevo buque insignia, un digno sucesor para el veterano Aventador. Bajo el nombre Revuelto se nos presenta una máquina híbrida que combina un V12 de aspiración natural con tres motores eléctricos y cuyo lanzamiento marca el comienzo de una nueva era para la histórica firma italiana.</p>
+      </div>
+  </div>
+
+  <div class="news-article">
+    <div class="news-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLqBDrUb9_o1aUPTtL2SYgijIjWuF36zhYGX1wY9zBvpx0i51ci2vvhQpOB_3BmWnUnOg&usqp=CAU" alt="Imagen de Noticia 2" height="200" width="400">
+    </div>
+    <div class="news-content">
+        <h2 class="news-title">Max Verstappen, campeón del mundo de Fórmula 1</h2>
+        <p class="news-meta">Publicado el 9 de octubre de 2023</p>
+        <p>Es la crónica de un título anunciado. No ha habido sorpresa en Qatar y Max Verstappen se ha proclamado campeón del mundo de Fórmula 1 por tercer año consecutivo, tras los títulos logrados en 2021 y 2022.
+
+          El piloto neerlandés de Red Bull, que llegó a Losail con una ventaja de 177 puntos en la general respecto a su compañero Sergio Pérez, después de ganar 13 de los 16 grandes premios disputados en lo que va de temporada, solo necesitaba sumar tres puntos en la carrera al sprint de este sábado para asegurarse la corona de forma matemática. Y ha solventado su primer match ball sin pestañear.</p>
+    </div>
+</div>
+
+  
+
+</div>
+
+
+<footer class="pie-pagina" style="translate: 0px -1800px;">
+  <div class="grupo-1">
+    <div class="box">
+      <figure>
+        <a href="#">
+            <img src="logo.jpg" alt="logo">
+        </a>
+      </figure>
+  </div>
+  <div class="box">
+    <h2> SOBRE NOSOTROS</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates exercitationem similique, consequatur laborum, expedita itaque quasi accusantium a suscipit sed molestias praesentium nostrum repellat enim necessitatibus natus voluptate quod id?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores non sint temporibus quae placeat in vel sapiente ipsum odio reprehenderit similique, quidem fuga esse quibusdam assumenda atque nulla eveniet magni!</p>
+
+  </div>
+  <div class="box"></div>
+  <h2>SIGUENOS</h2>
+  <div class="red-social">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a>
+  </div>
+ </div>
+ <div class="grupo-2">
+    <small>&copy; 2023 <b>Auto Drive</b> -  Todos los Derechos Reservados.</small>
+ </div>
+</footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script>  const header = document.getElementById('cabezera');
+    let isScrolling = false;
+
+    window.addEventListener('wheel', function() {
+      header.classList.add('scrolled');
+      
+      clearTimeout(isScrolling);
+      isScrolling = setTimeout(function() {
+        header.classList.remove('scrolled');
+      }, 100);
+    });
+
+    window.addEventListener('scroll', function() {
+      header.classList.add('scrolled');
+      clearTimeout(isScrolling);
+      isScrolling = setTimeout(function() {
+        header.classList.remove('scrolled');
+      }, 20);
+    });
+
+
+  $(document).ready(function() {
+  $('#button_jquery').mouseenter(function() {
+    $('.cartas').css('opacity', '1');
+  });
+});
+
+$(document).ready(function() {
+  $('#button_jquery').mouseleave(function() {
+    $('.cartas').css('opacity', '0');
+  });
+});
+
+$(document).ready(function() {
+  $('#button_jquery2').mouseenter(function() {
+    $('.cartas').css('opacity', '1');
+  });
+});
+
+$(document).ready(function() {
+  $('#button_jquery2').mouseleave(function() {
+    $('.cartas').css('opacity', '0');
+  });
+});
+
+$(document).ready(function() {
+  $('.cartas').mouseenter(function() {
+    $('.cartas').css('opacity', '1');
+  });
+});
+
+$(document).ready(function() {
+  $('.cartas').mouseleave(function() {
+    $('.cartas').css('opacity', '0');
+  });
+});
+$(document).ready(function() {
+  var imgQuery = $('#img_query');
+  var divTexto = $('#texto_animado');
+  var textoAnimado = "Descubre nuestros nuevos lanzamientos";
+  var animacionEnProgreso = false;
+
+  imgQuery.mouseenter(function() {
+    if (!animacionEnProgreso) {
+      animacionEnProgreso = true;
+      divTexto.text(''); 
+      escribirTexto(divTexto, textoAnimado, 0);
+    }
+  });
+
+  imgQuery.mouseleave(function() {
+    animacionEnProgreso = false;
+    divTexto.text(''); 
+  });
+
+  function escribirTexto(elemento, texto, index) {
+    if (index < texto.length && animacionEnProgreso) {
+      elemento.text(elemento.text() + texto.charAt(index));
+
+      if (elemento.width() > divTexto.width()) {
+        elemento.text(elemento.text() + '<br>');
+      }
+
+      index++;
+      setTimeout(function() {
+        escribirTexto(elemento, texto, index);
+      }, 100); 
+    } else {
+      animacionEnProgreso = false;
+    }
+  }
+});
+
+  </script>
+</body>
+
+
+</html>
+
