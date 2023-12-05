@@ -6,7 +6,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
@@ -664,11 +665,12 @@ margin-bottom: 20px;
         }
        
             #texto-encima {
-                font-size: 3.5rem;
-              translate: 50px 220px;
+                font-size: 3.2rem;
+              translate: 80px 220px;
+              width: 400px;
             }
             #texto-grande {
-                font-size: 3.5rem;
+                font-size: 3.2rem;
                 translate: 139px 260px;
             }
             #texto-grande2 {
@@ -687,7 +689,8 @@ margin-bottom: 20px;
                 top: 77%;
                 left: 25%;
                 height: 10px;
-                width: 20px; 
+                width: 20px;
+                
                
             }
             #button_ej{
@@ -970,7 +973,7 @@ transition: all 1s ease-in-out;
     #cabezera {
         position: static;
 
-          height: 90px;
+        
         
     }
     #staticBackdrop {
@@ -1059,7 +1062,7 @@ height: 850px;
       translate: -100px -70px;
     }
     #divid1{
-      translate: 90px -540px;
+      translate: 90px -550px;
       scale: 0.6;
     }
     #divid2{
@@ -1071,11 +1074,11 @@ height: 850px;
       scale: 0.6;
     }
     #txtid1{
-      translate: 100px -460px; margin-left: 10px; }
+      translate: 70px -480px; margin-left: 10px; margin-right: 0px;}
       #txtid2{
-      translate: -180px -340px; margin-left: 10px; }
+      translate: -100px -350px; margin-left: 10px; margin-right: 0px; }
       #txtid3{
-      translate: 100px -245px; margin-left: 10px; }
+      translate: 70px -255px; margin-left: 10px; }
       #logoicon {
 translate: 0px -10px;
 margin-left: 0px;
@@ -1130,7 +1133,8 @@ margin-right: 0px;
       cursor: pointer;
      }
      #txtrecomendaciones {
-      translate: -100px;
+      translate: -80px;
+      width: 500px;
      }
      #seccionrecomendaciones {
       translate: -50px 20px;
@@ -1141,59 +1145,59 @@ margin-right: 0px;
       translate: -35px;
      }
      #caja2 {
-      translate: 20px;
+      translate: -50px;
      }
      #caja3 {
-      translate: 180px;
+      translate: 110px;
      }
      #caja4 {
-      translate: 330px;
+      translate: 260px;
      }
      #caja5 {
-      translate: 480px;
+      translate: 410px;
      }
      #caja6 {
-      translate: 625px;
+      translate: 5px;
      }
 
      #caja21 {
-      translate: 20px;
+      translate: -70px;
      }
      #caja31 {
-      translate: 170px;
+      translate: 80px;
      }
      #caja41 {
-      translate: 320px;
+      translate: 230px;
      }
      #caja51 {
-      translate: 470px;
+      translate: 380px;
      }
      #caja61 {
-      translate: 620px;
+      translate: 530px;
      }
      #caja71 {
-      translate: 770px;
+      translate: 680px;
      }
      #caja81 {
-      translate: 920px;
+      translate: 830px;
      }
      #caja91 {
-      translate: 1060px;
+      translate: 970px;
      }
      #caja101 {
-      translate: 1227px;
+      translate: 1137px;
      }
      #btnsiguiente {
-      translate: 520px -790px;
+      translate: 380px -790px;
      }
      #btnprevio {
-      translate:30px -840px;
+      translate:0px -840px;
      }
      #btnsiguiente2 {
-      translate: 520px -270px;
+      translate: 370px -270px;
      }
      #btnprevio2 {
-      translate:30px -330px;
+      translate:5px -330px;
      }
 #txtrecomendaciones {
   scale: 0.8; translate: -160px;
@@ -1205,10 +1209,30 @@ margin-right: 0px;
   scale: 0.001;
 }
 #buscar {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  translate: -50px;
+  scale: 0.8;
 }
-
+#descubre {
+  scale: 0.8;
+  translate: -60px;
+ margin-bottom: 300px;
+}
+#cabezera {
+  width:450px;
+ 
+}
+video{
+  overflow-x: hidden;
+}
+     body{
+      overflow-x: hidden;
      
+     }
+     #staticBackdrop {
+      translate: 20px 100px;
+     }
 }
 #btndescubre:hover {
 transition: all 0.3s;
@@ -1221,6 +1245,7 @@ background-color: #848484;
 #btndescubre {
 background-color: white;
 transition: all 0.3s;
+
 }
 #btndescubre2 {
   background-color: rgb(73, 73, 73);
@@ -1274,7 +1299,7 @@ transition: all 0.3s;
 
 <body>
  
-  <header id="cabezera" style="width: 100%; z-index: 1;">
+  <header id="cabezera" style="z-index: 1;">
     <nav id="navegacion" class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <button id="menubtn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -1364,7 +1389,7 @@ transition: all 0.3s;
 
   <div class="row" style="margin-top: 50px;" >
     <div class="col" id="txtid1" style="margin-left: 100px;">VEHICULOS NUEVOS</div>
-    <div class="col" id="txtid2" style="margin-left: 100px;">VEHICULOS DE SEGUNDA MANO</div>
+    <div class="col" id="txtid2">VEHICULOS DE SEGUNDA MANO</div>
     <div class="col" id="txtid3" style="margin-left: 100px;">MODIFICAR VEHICULO</div>
    
   </div>
@@ -1860,7 +1885,7 @@ input.addEventListener('input', function() {
 
 
 
-  var contador=1;
+
 
   document.getElementById('btnsiguiente').addEventListener('click', function() {
 const recomendaciones= document.getElementById('seccionrecomendaciones')
@@ -1901,7 +1926,7 @@ recomendaciones.style.transform+='translate(530px)'
 
 
  
-
+  var contador=1;
   document.getElementById('menubtn').addEventListener('click', function() {
     const cabezera = document.getElementById('cabezera');
     const textoEncima = document.getElementById('texto-encima');
@@ -1910,15 +1935,15 @@ recomendaciones.style.transform+='translate(530px)'
     const txtlogo = document.getElementById('txt_logo');
     const button = document.getElementById('btn1');
 
-    if (window.innerWidth <= 767) {
+   
         if (contador % 2 != 0) {
             textoEncima.style.transform = 'translate(-200px, 405px)';
-            textoGrande.style.transform = 'translate(-200px, 380px)';
+            textoGrande.style.transform = 'translate(-170px, 380px)';
             button.style.transform = 'translate(-15px, 250px)';
             txtlogo.style.transform = 'translate(50px, 700px)';
             cabezera.style.height = '330px';
         } else {
-            textoEncima.style.transform = 'translate(-200px, 160px)';
+            textoEncima.style.transform = 'translate(-240px, 160px)';
             textoGrande.style.transform = 'translate(-200px, 145px)';
             button.style.transform = 'translate(-15px, 20px)';
             txtlogo.style.transform = 'translate(0px, -110px)';
@@ -1926,7 +1951,7 @@ recomendaciones.style.transform+='translate(530px)'
         }
 
         contador = contador + 1;
-    }
+    
 });
 
 
